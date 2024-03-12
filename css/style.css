@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+:root {
+        --main-bg-color: #075782cf;
+      }
+
+*{
+        padding: 0;
+        margin: 0;
+}
+header{
+        background-color: var(--main-bg-color);
+        /* font-family: "Lato", sans-serif; */
+}
+
+nav ul li{
+        list-style: none;
+        padding: 0 23px;
+        font-size: 25px;
+}
+nav ul li a{
+        text-decoration: none;
+        color: white;
+}
+nav ul li a:hover{
+        color: rgb(239, 72, 39);
+        
+}
+nav ul{
+        height: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: 500;
+}
+nav{
+        display: flex;
+        justify-content: space-around;
+}
+.logo{
+        display: flex;
+        align-items: center;
+}
+.logo img{
+        width: 160px;
+        padding: 0 23px;
+}
+.search{
+        display: flex;
+        align-items:center;
+}
+.search button{
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+}
+
+
+.search input{
+        width: 400px;
+        height: 27px;
+        border-radius: 5px;
+        margin: 0 10px 0 60px;
+}
+
+.container{
+        min-height: calc(100vh - 60px - 12vh);
+}
+
+
+
+
+
+
+
+footer{
+        height: 12vh;
+        background-color: black;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}

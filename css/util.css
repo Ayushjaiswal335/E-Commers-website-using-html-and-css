@@ -1,0 +1,15 @@
+.flexa-all-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btn {
+        padding: 5px 11px;
+        border-radius: 4px;
+        background-color: var(--main-bg-color);
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+}
+
